@@ -5,7 +5,7 @@ Javascript is sync single-thread language.
 2.) Local Execuction Context
 
 ## Two Phase
-1.) Memory creation phase; All variables will be declared with special keyword undefined. 
+1.) Memory creation phase; All variables will be declared with special keyword undefined & Function whole code will be placed.
 2.) Code excution phase; 
 
 
