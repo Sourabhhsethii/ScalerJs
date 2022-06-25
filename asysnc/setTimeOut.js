@@ -57,6 +57,7 @@ objec2.getName(callbacktest);
 
 this.table = 'SS';
 const cleanTableArrowrFnction = function(soap){
+    console.log(this);
     const innerFunction = (_soap) =>{
         console.log('clean ' + this.table + ' using '+ _soap);
     }
