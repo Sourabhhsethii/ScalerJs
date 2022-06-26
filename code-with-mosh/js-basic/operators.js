@@ -21,3 +21,12 @@ console.log(++x);
 console.log(x++);
 console.log(x);
 
+
+// Decrement  (--)
+
+// First Decrement then Display
+console.log(--x);
+// First Display then Decrement
+console.log(x--);
+console.log(x);
+
