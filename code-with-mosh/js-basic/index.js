@@ -38,9 +38,45 @@
         }
 
         console.log(person);
-
+        console.log(typeof person)
         // Dot Notation to access the property
         console.log(person.name);
         // Bracket Notation 
         console.log(person['age']);
 
+        let selectedColourArray = ['Red', 'Blue'];
+        console.log(selectedColourArray);
+        console.log(selectedColourArray[0]);
+        console.log(selectedColourArray[1]);
+
+        selectedColourArray[2] = 'green';
+        console.log(selectedColourArray);
+        selectedColourArray[3] = 1;
+        console.log(selectedColourArray);
+        // Arrays are Objects in JS 
+        // Array is Data Struture
+        console.log(typeof selectedColourArray);
+
+        /**
+         * Functions
+         * Fundamental Building Blocks in JS.
+         * Performing a task
+         */
+        function greet(name){
+            console.log('Hello ' + name);   
+        }
+        
+        greet('world');
+        console.log(typeof greet);
+
+        /**
+         * Types of  Functions
+         */
+
+        // Calculate a value
+        function square(number){
+                return number * number;
+        }
+
+        var a = square(2);
+        console.log(a);
