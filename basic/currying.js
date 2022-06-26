@@ -40,3 +40,13 @@ let sumCurrying = function(a){
     }
 }
 console.log(sumCurrying(1)(2)(3)());
+
+// ES 6
+
+let sumes6 = (a) =>{
+    return (b)=>{
+        return b? sumes6(a+b): a;
+    }
+}
+
+console.log(sumes6(1)(2)())
