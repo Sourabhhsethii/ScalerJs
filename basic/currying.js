@@ -50,3 +50,8 @@ let sumes6 = (a) =>{
 }
 
 console.log(sumes6(1)(2)())
+
+// Syntax Change
+let sumSyntax = a=> b => b?sumSyntax(a+b):a;
+console.log(sumSyntax(2)(3)())
+
