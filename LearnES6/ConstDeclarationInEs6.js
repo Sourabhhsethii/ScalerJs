@@ -1,5 +1,6 @@
 /**
  * Const Declaration In Es6
+ * Const have bar scope.
  */
 
 const value = 'hello World';
