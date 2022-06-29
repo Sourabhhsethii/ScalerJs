@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fa2a15a-e0a2-4792-836c-350e209add6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/funtions.js" afterDir="false" />
-    </list>
+    <list default="true" id="7fa2a15a-e0a2-4792-836c-350e209add6e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,5 +40,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
